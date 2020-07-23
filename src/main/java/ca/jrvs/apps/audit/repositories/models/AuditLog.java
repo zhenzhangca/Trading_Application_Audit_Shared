@@ -13,7 +13,7 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "AUDIT")
+@Table(name = "AUDIT_LOG")
 public class AuditLog implements Serializable {
     /**
      *

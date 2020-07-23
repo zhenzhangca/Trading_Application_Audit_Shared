@@ -4,13 +4,15 @@ import ca.jrvs.apps.audit.repositories.ActivityRepository;
 import ca.jrvs.apps.audit.repositories.models.Activity;
 import ca.jrvs.apps.audit.service.ActivityService;
 import ca.jrvs.apps.audit.web.resources.ActivityResponse;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Service
+@Service("ActivityServiceImpl")
+@Slf4j
 public class ActivityServiceImpl implements ActivityService {
 
     @Autowired
