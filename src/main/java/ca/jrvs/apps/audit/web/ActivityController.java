@@ -18,7 +18,7 @@ import java.util.List;
 
 @Validated
 @RestController
-@RequestMapping(value = "/api/v1/trading/auditlog")
+@RequestMapping(value = "/api/v1/trading/auditLog")
 @Api(value = "activity")
 @Slf4j
 public class ActivityController {

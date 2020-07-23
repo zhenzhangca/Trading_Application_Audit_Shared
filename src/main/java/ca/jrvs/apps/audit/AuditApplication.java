@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AuditApplication {
-    private Logger logger = LoggerFactory.getLogger(ca.jrvs.apps.audit.AuditApplication.class);
+    private Logger logger = LoggerFactory.getLogger(AuditApplication.class);
 
 
     public static void main(String[] args) {
-        SpringApplication.run(ca.jrvs.apps.audit.AuditApplication.class, args);
+        SpringApplication.run(AuditApplication.class, args);
     }
 
 }
